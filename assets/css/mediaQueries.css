@@ -1,0 +1,202 @@
+/* Hide for tablet (768px to 1024px) and laptop (1025px and above) */
+@media (min-width: 768px) and (max-width: 1500px) {
+    .top-nav, .navbar, .slider-nav, .banner-bar, .main, .benefit-box, #reviews, .subscription, .footer {
+      display: none !important;
+    }
+    #availability-message {
+        display: block !important;
+    }
+    #availability-message img {
+        height: 400px;
+        width: 500px;
+        display: flex;
+        margin: 0 auto;
+    }
+  }
+  
+@media (max-width: 992px) {
+    .top-nav {
+        padding: 30px 60px !important;
+        text-align: center;
+        font-weight: light !important;
+        padding: 30px 10px !important;
+    }
+    .navbar .container-fluid {
+        background-color: rgba(0, 51, 62, 1);
+        margin-top: 70px;
+        z-index: 10000;
+    }
+    #navbarNav .navbar-nav{
+        gap: 10px !important;
+    }
+    .navbar-nav .nav-link, .dropdown-icon, .input-group-text svg, .icon-box i {
+        color: rgba(255, 255, 255, 1) !important;
+    }
+    .input-group, .icon-box {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .filter a {
+        display: none;
+    }
+    .toggle-chevron {
+        display: block !important;
+    }
+    .benefit-box {
+        display: none;
+    }
+    .main {
+        flex-direction: column;
+        padding: 0 20px !important;
+        margin-top: 50px !important;
+        gap: 0 !important;
+    }
+    .main .category-box, .main .product-box {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .col-md-4 {
+        display: flex !important;
+        justify-content: center !important;
+        width: 50%;
+        padding: 0 !important;
+    }
+    .badge-box {
+        display: none;
+    }
+    .display {
+        display: block !important;
+    }
+    
+}
+@media (max-width: 480px) {
+    .vertical-line {
+        display: none !important;
+    }
+    .nav-button {
+        display: block !important;
+    }
+    .banner-bar {
+        height: 242px !important;
+    }
+    .banner-bar .banner-text {
+        width: 100%;
+    }
+    .banner-bar .rate-box i, .banner-text .banner-top-text span {
+        font-size: 12px !important;
+    }
+    .banner-bar .banner-text .main-text {
+        width: 90%;
+    }
+    .banner-bar .banner-text .head {
+        font-size: 26px !important;
+    }
+    .banner-bar .banner-text .para {
+        font-size: 14px !important;
+        letter-spacing: 1px;
+    }
+    .banner-bar .container-fluid .logo-bar {
+        display: none;
+    }
+    .availability, .price, .sort {
+        border-bottom: 1px solid rgba(237, 237, 237, 1);
+        padding-bottom: 20px;
+    }
+    .card {
+        width: 93% !important;
+    }
+    .card-body {
+        text-align: left !important;
+        margin-top: 5px !important;
+    }
+    .card-body .rate-box i {
+        font-size: 10px;
+    }
+    .card-body .rating-box span {
+        font-size: 12px !important;
+        margin-top: 5px;
+    }
+    .card-title {
+        font-size: 16px !important;
+        margin-top: 0 !important;
+    }
+    .card-span {
+        font-size: 14px !important;
+    }
+    .card-text {
+        font-size: 16px !important;
+    }
+    .card-btn {
+        height: 38px !important;
+        width: 150px !important;
+        font-size: 16px !important;
+    }
+    #reviews .container button {
+        display: none !important;
+    }
+    .review-text .heading {
+        font-size: 26px !important;
+    }
+    .review-text .para {
+        font-size: 16px !important;
+    }
+    .review-btn {
+        width: 320px !important;
+        height: 50px !important;
+    }
+    #reviews .rating-box .rate-box {
+        font-size: 12px !important;
+    }
+    #reviews .rating-box span {
+        font-size: 12px !important;
+    }
+    .rev-btns {
+        display: block !important;
+    }
+    .subscription {
+        height: 100% !important;
+        padding: 100px 0 !important;
+    }
+    .subscription .content {
+        width: 100% !important;
+    }
+    .subscription .content span {
+        font-size: 26px !important;
+    }
+    .email-container {
+        background: none !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        width: 100% !important;
+        margin-top: 30px !important;
+    }
+    .email-input {
+        width: 100%;
+       padding: 15px !important;
+    }
+    .email-button {
+        width: 100% !important;
+        padding: 15px 0 !important;
+    } 
+    .security {
+        margin-top: 30px !important;
+    }
+    .footer {
+        height: 100% !important;
+    }
+    .footer .line2, .footer .line3 {
+        display: block !important;
+      }
+    .last-bar .col-lg-6 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo-bar a>img {
+        height: 15px;
+        width: 24px;
+    }
+    .logo-box .logo-bar {
+        position: static !important;
+    }
+}
